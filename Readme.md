@@ -37,3 +37,10 @@ tasks.jar {
     }
 }
 ``` 
+
+## Caching 
+faster builds by reusing the outputs from the last/ any earlier build 
+
+```shell
+./gradlew build --build-cache
+```
